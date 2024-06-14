@@ -1,0 +1,73 @@
+.bg-white {
+  background-color: #fff;
+}
+
+.dark\:bg-zinc-800 {
+  background-color: #2b2b2f;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-xl {
+  font-size: 1.25rem; /* Adjust as needed */
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-zinc-900 {
+  color: #333; /* Example color */
+}
+
+.dark\:text-zinc-100 {
+  color: #eee; /* Example dark mode color */
+}
+
+.space-x-4 > * {
+  margin-right: 1rem; /* Adjust as needed */
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.bg-green-500 {
+  background-color: #10b981;
+}
+
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem; /* Adjust as needed */
+}
