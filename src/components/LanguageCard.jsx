@@ -5,6 +5,8 @@ import imageHTML from '../img/html.svg'
 
 function LanguageCard() {
   return (
+    <section id="card1" class="card">
+      <img src={imageHTML} alt="HTML" />
 
   )
 }
