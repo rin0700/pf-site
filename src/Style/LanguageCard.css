@@ -51,3 +51,13 @@ section.card {
   font-weight: 700;
 }
 
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: #000000;
+  line-height: 1.4;
+}
