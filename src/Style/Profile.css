@@ -1,0 +1,11 @@
+/* Profile.css */
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  color: #1a202c;
+  /* text-zinc-900 */
+}
