@@ -9,3 +9,21 @@
   color: #1a202c;
   /* text-zinc-900 */
 }
+
+@media (min-width: 768px) {
+  .profile-container {
+    flex-direction: row;
+  }
+}
+
+.profile-image {
+  width: 30%;
+  border-radius: 8%;
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+}
