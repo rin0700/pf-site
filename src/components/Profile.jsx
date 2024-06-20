@@ -7,6 +7,12 @@ export function Profile() {
     <div className="profile-container">
       <img src={Shayna} alt="Profile placeholder" className="profile-image" />
       <div>
+        <h2 className="profile-title">Title of the Section</h2>
+        <p className="profile-description">
+          This is a description or any other text content that you want to align next to the image. It can be a few lines long and should wrap nicely around the image.
+        </p>
+      </div>
+    </div>
   );
 }
 
