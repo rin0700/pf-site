@@ -20,6 +20,8 @@ import imageSwiftUI from '../img/SwiftUI.svg';
 import imageUnity from '../img/Unity.svg';
 import imageVsCode from '../img/vscode.svg';
 import imageXCode from '../img/XCode.svg';
+
+const cards = [
   {
     id: 'html',
     imgSrc: imageHTML,
@@ -139,6 +141,22 @@ import imageXCode from '../img/XCode.svg';
     description: 'Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games.',
     category: 'ToolsAndEnvironments'
   },
+  {
+    id: 'figma',
+    imgSrc: imageFigma,
+    title: 'Figma',
+    description: 'Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features enabled by desktop applications for macOS and Windows.',
+    category: 'ToolsAndEnvironments'
+  },
+  {
+    id: 'xcode',
+    imgSrc: imageXCode,
+    title: 'Xcode',
+    description: 'Xcode is an integrated development environment for macOS containing a suite of software development tools developed by Apple for developing software for macOS, iOS, iPadOS, watchOS, and tvOS.',
+    category: 'ToolsAndEnvironments'
+
+  }
+];
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
@@ -168,8 +186,8 @@ function LanguageCard() {
       <CategorySection title="Frontend" cards={frontendCards} />
       <CategorySection title="Backend" cards={backendCards} />
       <CategorySection title="Tools and Environments" cards={toolsAndEnvironments} />
-      </div>
+    </div>
   );
 }
 
-export default LanguageCard
+export default LanguageCard;
