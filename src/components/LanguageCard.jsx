@@ -41,6 +41,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'JavaScript is a programming language commonly used in web development.',
     category: 'Frontend'
   },
+  {
+    id: 'react',
+    imgSrc: imageReact,
+    title: 'React',
+    description: 'React is a JavaScript library for building user interfaces.',
+    category: 'Frontend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
