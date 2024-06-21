@@ -9,3 +9,9 @@
   gap: 1rem;
 }
 
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #27272a;
+}
+
