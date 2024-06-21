@@ -132,6 +132,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'Unity is a cross-platform game engine developed by Unity Technologies.',
     category: 'ToolsAndEnvironments'
   },
+  {
+    id: 'blender',
+    imgSrc: imageBlender,
+    title: 'Blender',
+    description: 'Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games.',
+    category: 'ToolsAndEnvironments'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
