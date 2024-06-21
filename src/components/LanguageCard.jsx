@@ -22,6 +22,10 @@ import imageVsCode from '../img/vscode.svg';
 import imageXCode from '../img/XCode.svg';
 
 function LanguageCard() {
+  const frontendCards = cards.filter(card => card.category === 'Frontend');
+  const backendCards = cards.filter(card => card.category === 'Backend');
+  const toolsAndEnvironments = cards.filter(card => card.category === 'ToolsAndEnvironments');
+
   return (
     <div className='category__title'>
       <h1>開発・学習に使用した技術</h1>
