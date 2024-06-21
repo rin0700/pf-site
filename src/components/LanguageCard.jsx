@@ -76,6 +76,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'Java is a high-level, class-based, object-oriented programming language.',
     category: 'Backend'
   },
+  {
+    id: 'swift',
+    imgSrc: imageSwift,
+    title: 'Swift',
+    description: 'Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc.',
+    category: 'Backend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
