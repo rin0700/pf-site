@@ -125,6 +125,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'SwiftUI is an innovative, exceptionally simple way to build user interfaces across all Apple platforms with the power of Swift.',
     category: 'Frontend'
   },
+  {
+    id: 'unity',
+    imgSrc: imageUnity,
+    title: 'Unity',
+    description: 'Unity is a cross-platform game engine developed by Unity Technologies.',
+    category: 'ToolsAndEnvironments'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
