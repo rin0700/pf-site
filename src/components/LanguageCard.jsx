@@ -97,6 +97,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'MySQL is an open-source relational database management system.',
     category: 'Backend'
   },
+  {
+    id: 'jquery',
+    imgSrc: imageJquery,
+    title: 'jQuery',
+    description: 'jQuery is a fast, small, and feature-rich JavaScript library.',
+    category: 'Frontend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
