@@ -34,6 +34,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'CSS is used to control the style of a web document in a simple and easy way.',
     category: 'Frontend'
   },
+  {
+    id: 'js',
+    imgSrc: imageJS,
+    title: 'JavaScript',
+    description: 'JavaScript is a programming language commonly used in web development.',
+    category: 'Frontend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
