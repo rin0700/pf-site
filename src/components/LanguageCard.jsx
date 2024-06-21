@@ -90,6 +90,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS.',
     category: 'ToolsAndEnvironments'
   },
+  {
+    id: 'mysql',
+    imgSrc: imageMySQL,
+    title: 'MySQL',
+    description: 'MySQL is an open-source relational database management system.',
+    category: 'Backend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
