@@ -1,6 +1,29 @@
+/* LanguageCard.css */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  /* text-align: center; */
+  /* カード間の空白 */
+  padding: 20px;
+  /* コンテナ内の空白 */
+}
+
+.category {
+  margin-bottom: 40px;
+  /* text-align: center; */
+}
+
+.category-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 section.card {
   position: relative;
-  width: 200px;
+  width: 100%;
   height: 200px;
   background-color: #f2f2f2;
   border-radius: 10px;
@@ -10,10 +33,14 @@ section.card {
   overflow: hidden;
   perspective: 1000px;
   transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  text-align: center;
 }
 
-.card svg {
-  fill: #000;
+.card img {
+  width: 200px;
+  height: auto;
+  max-width: 200px;
+  /* SVG画像の最大幅 */
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   border-radius: 3px;
 }
@@ -25,6 +52,7 @@ section.card {
 }
 
 .card__content {
+  text-align: center;
   color: #000000;
   position: absolute;
   top: 0;
@@ -51,8 +79,8 @@ section.card {
   font-weight: 700;
 }
 
-.card:hover svg {
-  scale: 0;
+.card:hover img {
+  transform: scale(0);
 }
 
 .card__description {
@@ -60,4 +88,8 @@ section.card {
   font-size: 12px;
   color: #000000;
   line-height: 1.4;
+}
+
+.category__title {
+  text-align: center;
 }
