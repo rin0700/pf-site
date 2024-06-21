@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Profile from '../components/Profile'
 import LanguageCard from '../components/LanguageCard'
+import Qualifications from '../components/Qualifications'
 
 function main() {
   return (
@@ -9,6 +10,7 @@ function main() {
       <Header />
       <Profile />
       <LanguageCard />
+      <Qualifications />
     </>
   )
 }
