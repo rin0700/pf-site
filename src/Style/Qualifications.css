@@ -15,3 +15,49 @@
   color: #27272a;
 }
 
+.qualification-list {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.qualification-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .qualification-item {
+    background-color: #52525b;
+  }
+}
+
+.qualification-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #27272a;
+}
+
+@media (prefers-color-scheme: dark) {
+  .qualification-name {
+    color: #e4e4e7;
+  }
+}
+
+.qualification-date,
+.qualification-organization {
+  font-size: 0.875rem;
+  color: #737373;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .qualification-date,
+  .qualification-organization {
+    color: #a1a1aa;
+  }
+}
