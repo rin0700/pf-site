@@ -118,6 +118,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'C# is a general-purpose, multi-paradigm programming language developed by Microsoft.',
     category: 'Backend'
   },
+  {
+    id: 'swiftUI',
+    imgSrc: imageSwiftUI,
+    title: 'SwiftUI',
+    description: 'SwiftUI is an innovative, exceptionally simple way to build user interfaces across all Apple platforms with the power of Swift.',
+    category: 'Frontend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
