@@ -20,6 +20,13 @@ import imageSwiftUI from '../img/SwiftUI.svg';
 import imageUnity from '../img/Unity.svg';
 import imageVsCode from '../img/vscode.svg';
 import imageXCode from '../img/XCode.svg';
+  {
+    id: 'html',
+    imgSrc: imageHTML,
+    title: 'HTML',
+    description: 'HTML is the standard markup language for creating web pages.',
+    category: 'Frontend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
