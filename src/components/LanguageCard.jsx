@@ -21,6 +21,23 @@ import imageUnity from '../img/Unity.svg';
 import imageVsCode from '../img/vscode.svg';
 import imageXCode from '../img/XCode.svg';
 
+const CategorySection = ({ title, cards }) => (
+  <div className="category">
+    <h2 className="category-title">{title}</h2>
+    <div className="cards-container">
+      {cards.map(card => (
+        <section key={card.id} id={card.id} className="card">
+          <img src={card.imgSrc} alt={card.title} />
+          <div className="card__content">
+            <p className="card__title">{card.title}</p>
+            <p className="card__description">{card.description}</p>
+          </div>
+        </section>
+      ))}
+    </div>
+  </div>
+);
+
 function LanguageCard() {
   const frontendCards = cards.filter(card => card.category === 'Frontend');
   const backendCards = cards.filter(card => card.category === 'Backend');
