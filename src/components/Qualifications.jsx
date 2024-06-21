@@ -9,3 +9,8 @@ function Qualifications() {
     { name: 'Webクリエイター認定試験スタンダード', date: '令和5年 10月　', org: '　主催:サーティファイWeb利用・技術認定委員会' },
     { name: '基本情報技術者試験', date: '令和6年 05月　', org: '　主催:IPA 独立行政法人 情報処理推進機構' }
   ];
+
+  const learning = [
+    { name: '応用情報技術者試験', date: '令和5年 07月~　', org: '　主催:IPA 独立行政法人 情報処理推進機構' },
+    { name: 'AWS Cloud Practitioner', date: '令和6年 05月~　', org: '　主催:Amazon' }
+  ];
