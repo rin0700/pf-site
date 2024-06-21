@@ -22,3 +22,22 @@ function Qualifications() {
     </div>
   );
 }
+
+function Section({ title, items }) {
+  return (
+    <div>
+      <h2 className="title">{title}</h2>
+      <div className="list">
+        {items.map((item, index) => (
+          <div key={index} className="item">
+            <span className="date">{item.date}</span>
+            <span className="name">{item.name}</span>
+            <span className="org">{item.org}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Qualifications;
