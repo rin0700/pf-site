@@ -83,6 +83,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc.',
     category: 'Backend'
   },
+  {
+    id: 'vscode',
+    imgSrc: imageVsCode,
+    title: 'Visual Studio Code',
+    description: 'Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS.',
+    category: 'ToolsAndEnvironments'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
