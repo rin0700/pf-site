@@ -55,6 +55,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs.',
     category: 'ToolsAndEnvironments'
   },
+  {
+    id: 'docker',
+    imgSrc: imageDocker,
+    title: 'Docker',
+    description: 'Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers.',
+    category: 'ToolsAndEnvironments'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
