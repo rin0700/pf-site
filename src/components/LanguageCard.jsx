@@ -62,6 +62,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers.',
     category: 'ToolsAndEnvironments'
   },
+  {
+    id: 'github',
+    imgSrc: imageGithub,
+    title: 'GitHub',
+    description: 'GitHub is a web-based hosting service for version control using Git.',
+    category: 'ToolsAndEnvironments'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
