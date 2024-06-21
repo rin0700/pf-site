@@ -104,6 +104,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'jQuery is a fast, small, and feature-rich JavaScript library.',
     category: 'Frontend'
   },
+  {
+    id: 'php',
+    imgSrc: imagePhp,
+    title: 'PHP',
+    description: 'PHP is a popular general-purpose scripting language that is especially suited to web development.',
+    category: 'Backend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
