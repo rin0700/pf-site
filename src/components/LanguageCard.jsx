@@ -48,6 +48,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'React is a JavaScript library for building user interfaces.',
     category: 'Frontend'
   },
+  {
+    id: 'aws',
+    imgSrc: imageAWS,
+    title: 'Amazon Web Services',
+    description: 'Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs.',
+    category: 'ToolsAndEnvironments'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
