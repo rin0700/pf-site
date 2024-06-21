@@ -111,6 +111,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'PHP is a popular general-purpose scripting language that is especially suited to web development.',
     category: 'Backend'
   },
+  {
+    id: 'c#',
+    imgSrc: imageCSharp,
+    title: 'C#',
+    description: 'C# is a general-purpose, multi-paradigm programming language developed by Microsoft.',
+    category: 'Backend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
