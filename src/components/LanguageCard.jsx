@@ -27,6 +27,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'HTML is the standard markup language for creating web pages.',
     category: 'Frontend'
   },
+  {
+    id: 'css',
+    imgSrc: imageCSS,
+    title: 'CSS',
+    description: 'CSS is used to control the style of a web document in a simple and easy way.',
+    category: 'Frontend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
