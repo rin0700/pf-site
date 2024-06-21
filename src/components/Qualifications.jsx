@@ -14,3 +14,11 @@ function Qualifications() {
     { name: '応用情報技術者試験', date: '令和5年 07月~　', org: '　主催:IPA 独立行政法人 情報処理推進機構' },
     { name: 'AWS Cloud Practitioner', date: '令和6年 05月~　', org: '　主催:Amazon' }
   ];
+
+  return (
+    <div className="container">
+      <Section title="取得済みの資格" items={qualifications} />
+      <Section title="学習中の資格" items={learning} />
+    </div>
+  );
+}
