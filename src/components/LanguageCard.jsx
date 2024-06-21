@@ -69,6 +69,13 @@ import imageXCode from '../img/XCode.svg';
     description: 'GitHub is a web-based hosting service for version control using Git.',
     category: 'ToolsAndEnvironments'
   },
+  {
+    id: 'java',
+    imgSrc: imageJava,
+    title: 'Java',
+    description: 'Java is a high-level, class-based, object-oriented programming language.',
+    category: 'Backend'
+  },
 
 const CategorySection = ({ title, cards }) => (
   <div className="category">
