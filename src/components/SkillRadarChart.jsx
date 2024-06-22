@@ -13,3 +13,11 @@ const hardSkill = [
   { subject: 'JavaScript', A: 3, fullMark: 5 },
   { subject: 'C#', A: 3, fullMark: 5 },
 ];
+
+const softSkill = [
+  { subject: 'Proactive', A: 4, fullMark: 5 },
+  { subject: 'Communication', A: 3, fullMark: 5 },
+  { subject: 'Support', A: 4, fullMark: 5 },
+  { subject: 'Problem solving', A: 5, fullMark: 5 },
+  { subject: 'WBS', A: 4, fullMark: 5 },
+];
