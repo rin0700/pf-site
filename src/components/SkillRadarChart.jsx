@@ -21,3 +21,33 @@ const softSkill = [
   { subject: 'Problem solving', A: 5, fullMark: 5 },
   { subject: 'WBS', A: 4, fullMark: 5 },
 ];
+
+const SkillRadarChart = () => {
+  return (
+    <>
+      <h1 className='textCenter'>My Skills</h1>
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <ResponsiveContainer width="45%" height={400}>
+          <RadarChart cx="50%" cy="50%" outerRadius="80%" data={hardSkill}>
+            <PolarGrid />
+            <PolarAngleAxis dataKey="subject" />
+            <PolarRadiusAxis angle={30} domain={[0, 5]} tickCount={6} />
+            <Radar name="HARD SKILLS" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+            <Legend />
+          </RadarChart>
+        </ResponsiveContainer>
+        <ResponsiveContainer width="45%" height={400}>
+          <RadarChart cx="50%" cy="50%" outerRadius="80%" data={softSkill}>
+            <PolarGrid />
+            <PolarAngleAxis dataKey="subject" />
+            <PolarRadiusAxis angle={30} domain={[0, 5]} tickCount={6} />
+            <Radar name="SOFT SKILLS" dataKey="A" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6} />
+            <Legend />
+          </RadarChart>
+        </ResponsiveContainer>
+      </div>
+    </>
+  );
+}
+
+export default SkillRadarChart;
