@@ -68,7 +68,7 @@ const cards = [
     id: 'github',
     imgSrc: imageGithub,
     title: 'GitHub',
-    description: 'GitHub is a web-based hosting service for version control using Git.',
+    description: '2024/5から積極的に使用し始め、基本的な操作は問題なく行えると思います。',
     category: 'ToolsAndEnvironments'
   },
   {
