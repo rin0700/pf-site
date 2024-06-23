@@ -96,7 +96,7 @@ const cards = [
     id: 'mysql',
     imgSrc: imageMySQL,
     title: 'MySQL',
-    description: 'MySQL is an open-source relational database management system.',
+    description: '授業やweb開発で使用した経験があり、少し苦手意識はあるが今後、開発で使用する予定',
     category: 'Backend'
   },
   {
