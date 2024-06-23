@@ -26,140 +26,140 @@ const cards = [
     id: 'html',
     imgSrc: imageHTML,
     title: 'HTML',
-    description: 'HTML is the standard markup language for creating web pages.',
+    description: '長く使用しているマークアップ言語であり、その能力を証明するWebクリエイター認定試験を取得しています。',
     category: 'Frontend'
   },
   {
     id: 'css',
     imgSrc: imageCSS,
     title: 'CSS',
-    description: 'CSS is used to control the style of a web document in a simple and easy way.',
+    description: 'HTMLと共にWebページのデザインを構築するためのスタイルシート言語として利用。ある程度使い慣れている。',
     category: 'Frontend'
   },
   {
     id: 'js',
     imgSrc: imageJS,
     title: 'JavaScript',
-    description: 'JavaScript is a programming language commonly used in web development.',
+    description: 'Reactと同時に学習していき、最近使用する機会が増えているプログラミング言語。',
     category: 'Frontend'
   },
   {
     id: 'react',
     imgSrc: imageReact,
     title: 'React',
-    description: 'React is a JavaScript library for building user interfaces.',
+    description: '現在積極的に学習しており、このポートフォリオサイトもReactを使用して作成しています。その他コンテストでの使用経験あり。',
     category: 'Frontend'
   },
   {
     id: 'aws',
     imgSrc: imageAWS,
     title: 'Amazon Web Services',
-    description: 'Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs.',
+    description: '最近のトレンドであるクラウドサービスの一つであることを知り、学習を開始。現在はAWS認定クラウドプラクティショナーを学習中。',
     category: 'ToolsAndEnvironments'
   },
   {
     id: 'docker',
     imgSrc: imageDocker,
     title: 'Docker',
-    description: 'Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers.',
+    description: 'コンテストでの使用経験あり。コンテナ型仮想化技術を利用して開発環境を構築するために使用。',
     category: 'ToolsAndEnvironments'
   },
   {
     id: 'github',
     imgSrc: imageGithub,
     title: 'GitHub',
-    description: 'GitHub is a web-based hosting service for version control using Git.',
+    description: '2024/5から積極的に使用し始め、基本的な操作は問題なく行えると思います。',
     category: 'ToolsAndEnvironments'
   },
   {
     id: 'java',
     imgSrc: imageJava,
     title: 'Java',
-    description: 'Java is a high-level, class-based, object-oriented programming language.',
+    description: 'プログラミング言語を学習した最初の言語であり、学習を開始したばかりの頃に使用していました。',
     category: 'Backend'
   },
   {
     id: 'swift',
     imgSrc: imageSwift,
     title: 'Swift',
-    description: 'Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc.',
+    description: '独学で学習中のプログラミング言語。iOSアプリ開発に使用される言語であり、将来的にはiOSアプリ開発を行いたいと考えています。',
     category: 'Backend'
   },
   {
     id: 'vscode',
     imgSrc: imageVsCode,
     title: 'Visual Studio Code',
-    description: 'Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS.',
+    description: 'プログラミング勉強した頃から使用しているテキストエディタ。拡張機能を利用して効率的に開発を行っています。',
     category: 'ToolsAndEnvironments'
   },
   {
     id: 'mysql',
     imgSrc: imageMySQL,
     title: 'MySQL',
-    description: 'MySQL is an open-source relational database management system.',
+    description: '授業やweb開発で使用した経験があり、少し苦手意識はあるが今後、開発で使用する予定',
     category: 'Backend'
   },
   {
     id: 'jquery',
     imgSrc: imageJquery,
     title: 'jQuery',
-    description: 'jQuery is a fast, small, and feature-rich JavaScript library.',
+    description: '個人開発で使用した経験があり、簡単なアニメーションやイベント処理を行う際に使用していました。',
     category: 'Frontend'
   },
   {
     id: 'php',
     imgSrc: imagePhp,
     title: 'PHP',
-    description: 'PHP is a popular general-purpose scripting language that is especially suited to web development.',
+    description: '授業で使用した経験があり、web開発やデータベースの処理に使用していました。',
     category: 'Backend'
   },
   {
     id: 'c#',
     imgSrc: imageCSharp,
     title: 'C#',
-    description: 'C# is a general-purpose, multi-paradigm programming language developed by Microsoft.',
+    description: 'ゲーム開発で使用した経験があり、Unityを使用してゲームを開発する際に使用していました。',
     category: 'Backend'
   },
   {
     id: 'swiftUI',
     imgSrc: imageSwiftUI,
     title: 'SwiftUI',
-    description: 'SwiftUI is an innovative, exceptionally simple way to build user interfaces across all Apple platforms with the power of Swift.',
+    description: '個人開発でiOSアプリの制作にSwiftUIを採用していました。理解度は高いと思います。',
     category: 'Frontend'
   },
   {
     id: 'unity',
     imgSrc: imageUnity,
     title: 'Unity',
-    description: 'Unity is a cross-platform game engine developed by Unity Technologies.',
+    description: 'ゲーム開発での経験があり、C#を使用してゲームを開発する際に使用し、3Dゲームの開発に使用していました。',
     category: 'ToolsAndEnvironments'
   },
   {
     id: 'blender',
     imgSrc: imageBlender,
     title: 'Blender',
-    description: 'Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games.',
+    description: '3Dモデリングやアニメーションを趣味で行なっていました。',
     category: 'ToolsAndEnvironments'
   },
   {
     id: 'figma',
     imgSrc: imageFigma,
     title: 'Figma',
-    description: 'Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features enabled by desktop applications for macOS and Windows.',
+    description: 'コンテスト制作の画面デザインに使用していました。UI/UXデザインに使用していました。',
     category: 'ToolsAndEnvironments'
   },
   {
     id: 'xcode',
     imgSrc: imageXCode,
     title: 'Xcode',
-    description: 'Xcode is an integrated development environment for macOS containing a suite of software development tools developed by Apple for developing software for macOS, iOS, iPadOS, watchOS, and tvOS.',
+    description: 'iOSアプリ開発に使用するIDEであり、Swiftを使用してiOSアプリを開発する際に使用していました。',
     category: 'ToolsAndEnvironments'
   },
   {
     id: 'canva',
     imgSrc: imageCanva,
     title: 'Canva',
-    description: 'Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents and other visual content.',
+    description: 'さまざまな制作の画像編集に使用していました。設計書作成・アプリアイコンの作成に使用していました。',
     category: 'ToolsAndEnvironments'
   }
 ];
