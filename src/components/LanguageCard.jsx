@@ -26,7 +26,7 @@ const cards = [
     id: 'html',
     imgSrc: imageHTML,
     title: 'HTML',
-    description: 'HTML is the standard markup language for creating web pages.',
+    description: '長く使用しているマークアップ言語であり、その能力を証明するWebクリエイター認定試験を取得しています。',
     category: 'Frontend'
   },
   {
