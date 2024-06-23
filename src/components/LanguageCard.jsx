@@ -75,14 +75,14 @@ const cards = [
     id: 'java',
     imgSrc: imageJava,
     title: 'Java',
-    description: 'Java is a high-level, class-based, object-oriented programming language.',
+    description: 'プログラミング言語を学習した最初の言語であり、学習を開始したばかりの頃に使用していました。',
     category: 'Backend'
   },
   {
     id: 'swift',
     imgSrc: imageSwift,
     title: 'Swift',
-    description: 'Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc.',
+    description: '独学で学習中のプログラミング言語。iOSアプリ開発に使用される言語であり、将来的にはiOSアプリ開発を行いたいと考えています。',
     category: 'Backend'
   },
   {
