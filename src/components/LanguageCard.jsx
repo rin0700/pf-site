@@ -124,7 +124,7 @@ const cards = [
     id: 'swiftUI',
     imgSrc: imageSwiftUI,
     title: 'SwiftUI',
-    description: 'SwiftUI is an innovative, exceptionally simple way to build user interfaces across all Apple platforms with the power of Swift.',
+    description: '個人開発でiOSアプリの制作にSwiftUIを採用していました。理解度は高いと思います。',
     category: 'Frontend'
   },
   {
