@@ -117,7 +117,7 @@ const cards = [
     id: 'c#',
     imgSrc: imageCSharp,
     title: 'C#',
-    description: 'C# is a general-purpose, multi-paradigm programming language developed by Microsoft.',
+    description: 'ゲーム開発で使用した経験があり、Unityを使用してゲームを開発する際に使用していました。',
     category: 'Backend'
   },
   {
