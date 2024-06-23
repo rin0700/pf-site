@@ -131,7 +131,7 @@ const cards = [
     id: 'unity',
     imgSrc: imageUnity,
     title: 'Unity',
-    description: 'Unity is a cross-platform game engine developed by Unity Technologies.',
+    description: 'ゲーム開発での経験があり、C#を使用してゲームを開発する際に使用し、3Dゲームの開発に使用していました。',
     category: 'ToolsAndEnvironments'
   },
   {
