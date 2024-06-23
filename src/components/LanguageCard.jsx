@@ -89,7 +89,7 @@ const cards = [
     id: 'vscode',
     imgSrc: imageVsCode,
     title: 'Visual Studio Code',
-    description: 'Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS.',
+    description: 'プログラミング勉強した頃から使用しているテキストエディタ。拡張機能を利用して効率的に開発を行っています。',
     category: 'ToolsAndEnvironments'
   },
   {
