@@ -47,7 +47,7 @@ const cards = [
     id: 'react',
     imgSrc: imageReact,
     title: 'React',
-    description: 'React is a JavaScript library for building user interfaces.',
+    description: '現在積極的に学習しており、このポートフォリオサイトもReactを使用して作成しています。その他コンテストでの使用経験あり。',
     category: 'Frontend'
   },
   {
