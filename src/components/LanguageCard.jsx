@@ -110,7 +110,7 @@ const cards = [
     id: 'php',
     imgSrc: imagePhp,
     title: 'PHP',
-    description: 'PHP is a popular general-purpose scripting language that is especially suited to web development.',
+    description: '授業で使用した経験があり、web開発やデータベースの処理に使用していました。',
     category: 'Backend'
   },
   {
