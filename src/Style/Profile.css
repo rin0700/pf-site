@@ -1,5 +1,3 @@
-/* Profile.css */
-
 .profile-container {
   display: flex;
   flex-direction: column;
@@ -36,4 +34,21 @@
 
 .profile-description {
   font-size: 1rem;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-education {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.profile-education p {
+  margin: 0 1rem 0 0;
+  text-align: left;
+  /* テキストを左寄せに */
 }
