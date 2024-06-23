@@ -54,7 +54,7 @@ const cards = [
     id: 'aws',
     imgSrc: imageAWS,
     title: 'Amazon Web Services',
-    description: 'Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs.',
+    description: '最近のトレンドであるクラウドサービスの一つであることを知り、学習を開始。現在はAWS認定クラウドプラクティショナーを学習中。',
     category: 'ToolsAndEnvironments'
   },
   {
