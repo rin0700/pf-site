@@ -103,7 +103,7 @@ const cards = [
     id: 'jquery',
     imgSrc: imageJquery,
     title: 'jQuery',
-    description: 'jQuery is a fast, small, and feature-rich JavaScript library.',
+    description: '個人開発で使用した経験があり、簡単なアニメーションやイベント処理を行う際に使用していました。',
     category: 'Frontend'
   },
   {
