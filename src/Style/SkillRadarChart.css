@@ -1,0 +1,27 @@
+/* SkillRadarChart.css */
+.textCenter {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .chartContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chartWrapper {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  .chartContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .chartWrapper {
+    width: 45%;
+  }
+}
