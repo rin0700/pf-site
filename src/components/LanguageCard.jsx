@@ -159,7 +159,7 @@ const cards = [
     id: 'canva',
     imgSrc: imageCanva,
     title: 'Canva',
-    description: 'Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents and other visual content.',
+    description: 'さまざまな制作の画像編集に使用していました。設計書作成・アプリアイコンの作成に使用していました。',
     category: 'ToolsAndEnvironments'
   }
 ];
