@@ -61,7 +61,7 @@ const cards = [
     id: 'docker',
     imgSrc: imageDocker,
     title: 'Docker',
-    description: 'Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers.',
+    description: 'コンテストでの使用経験あり。コンテナ型仮想化技術を利用して開発環境を構築するために使用。',
     category: 'ToolsAndEnvironments'
   },
   {
