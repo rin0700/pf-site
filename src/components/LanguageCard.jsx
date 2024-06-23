@@ -145,7 +145,7 @@ const cards = [
     id: 'figma',
     imgSrc: imageFigma,
     title: 'Figma',
-    description: 'Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features enabled by desktop applications for macOS and Windows.',
+    description: 'コンテスト制作の画面デザインに使用していました。UI/UXデザインに使用していました。',
     category: 'ToolsAndEnvironments'
   },
   {
