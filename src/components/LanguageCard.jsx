@@ -33,14 +33,14 @@ const cards = [
     id: 'css',
     imgSrc: imageCSS,
     title: 'CSS',
-    description: 'CSS is used to control the style of a web document in a simple and easy way.',
+    description: 'HTMLと共にWebページのデザインを構築するためのスタイルシート言語として利用。ある程度使い慣れている。',
     category: 'Frontend'
   },
   {
     id: 'js',
     imgSrc: imageJS,
     title: 'JavaScript',
-    description: 'JavaScript is a programming language commonly used in web development.',
+    description: 'Reactと同時に学習していき、最近使用する機会が増えているプログラミング言語。',
     category: 'Frontend'
   },
   {
