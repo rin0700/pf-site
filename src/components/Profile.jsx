@@ -17,7 +17,7 @@ export function Profile() {
         </div>
         <p>Komamura Ryuichi</p>
         <h2 className="profile-title">駒村 隆一</h2>
-        <h2>好きな言語</h2>
+        <h2>好きな言語;Swift,C#</h2>
         <p>趣味でのアプリ開発でSwiftを学習し、授業やゲーム制作でC#を学びました。
           どちらも豊富なライブラリとフレームワークがあり開発しやすいと感じています。</p>
         <h2>趣味</h2>
