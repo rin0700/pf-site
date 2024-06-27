@@ -15,7 +15,7 @@
 }
 
 .profile-image {
-  width: 30%;
+  width: 35%;
   border-radius: 8%;
 }
 
@@ -27,9 +27,14 @@
 }
 
 .profile-title {
-  font-size: 1.25rem;
+  font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .profile-description {
@@ -39,6 +44,7 @@
 .profile-info {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .profile-education {
@@ -51,4 +57,26 @@
   margin: 0 1rem 0 0;
   text-align: left;
   /* テキストを左寄せに */
+}
+
+.tight-spacing {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.custom-underline::after {
+  content: '';
+  display: block;
+  width: auto;
+  /* 下線の長さを設定 */
+  border-bottom: 1px solid black;
+  margin-top: -3px;
+  /* テキストとの間隔調整 (必要に応じて) */
 }
