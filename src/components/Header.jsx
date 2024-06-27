@@ -1,7 +1,10 @@
-import React from 'react'
-import '../Style/Header.css'
-
-export function Header() {
+import React from 'react';
+import '../Style/Header.css';
+import 'normalize.css';
+import { ReactComponent as ProfileIcon } from '../img/ProfileIcon.svg';
+import { ReactComponent as UnityIcon } from '../img/UnityIcon.svg';
+import { ReactComponent as ContactIcon } from '../img/ContactIcon.svg';
+import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
   return (
     <header className="bg-white dark:bg-zinc-800 p-4 flex justify-between items-center">
       <h1 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">My Website</h1>
