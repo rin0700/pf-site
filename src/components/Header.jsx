@@ -14,6 +14,10 @@ import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
             Avatar
             <UnityIcon className="svg" />
           </button>
+          <button className="Btn">
+            Mail
+            <ContactIcon className="svg" />
+          </button>
       </nav>
     </header>
   )
