@@ -18,6 +18,10 @@ import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
             Mail
             <ContactIcon className="svg" />
           </button>
+          <button className="Btn">
+            Works
+            <PortfolioIcon className="svg" />
+          </button>
       </nav>
     </header>
   )
