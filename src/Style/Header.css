@@ -68,6 +68,20 @@
   padding-right: 1rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem; /* Adjust as needed */
+.Btn:hover {
+  color: transparent;
+}
+
+.Btn:hover svg {
+  right: 43%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition-duration: 0.3s;
+}
+
+.Btn:active {
+  transform: translate(3px, 3px);
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 0 rgb(255, 255, 255);
 }
