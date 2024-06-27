@@ -1,60 +1,20 @@
-.bg-white {
-  background-color: #fff;
-}
-
-.dark\:bg-zinc-800 {
+/* Header-specific */
+.header-container {
   background-color: #2b2b2f;
-}
-
-.p-4 {
   padding: 1rem;
-}
-
-.flex {
   display: flex;
-}
-
-.justify-between {
   justify-content: space-between;
-}
-
-.items-center {
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
 }
 
-.text-xl {
-  font-size: 1.25rem; /* Adjust as needed */
-}
-
-.font-semibold {
+.header-title {
+  font-size: 1.25rem;
   font-weight: 600;
-}
-
-.text-zinc-900 {
-  color: #333; /* Example color */
-}
-
-.dark\:text-zinc-100 {
-  color: #eee; /* Example dark mode color */
-}
-
-.space-x-4 > * {
-  margin-right: 1rem; /* Adjust as needed */
-}
-
-.bg-blue-500 {
-  background-color: #3b82f6;
-}
-
-.bg-green-500 {
-  background-color: #10b981;
-}
-
-.bg-red-500 {
-  background-color: #ef4444;
-}
-
-.text-white {
   color: #fff;
 }
 
