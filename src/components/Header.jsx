@@ -18,16 +18,16 @@ function Header() {
             <ProfileIcon className="svg" />
           </button>
           <button className="Btn">
+            Works
+            <PortfolioIcon className="svg" />
+          </button>
+          <button className="Btn">
             Avatar
             <UnityIcon className="svg" />
           </button>
           <button className="Btn">
             Mail
             <ContactIcon className="svg" />
-          </button>
-          <button className="Btn">
-            Works
-            <PortfolioIcon className="svg" />
           </button>
         </nav>
       </header>
