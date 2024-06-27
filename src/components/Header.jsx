@@ -1,20 +1,38 @@
-import React from 'react'
-import '../Style/Header.css'
+import React from 'react';
+import '../Style/Header.css';
+import 'normalize.css';
+import { ReactComponent as ProfileIcon } from '../img/ProfileIcon.svg';
+import { ReactComponent as UnityIcon } from '../img/UnityIcon.svg';
+import { ReactComponent as ContactIcon } from '../img/ContactIcon.svg';
+import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
 
-export function Header() {
+function Header() {
   return (
-    <header className="bg-white dark:bg-zinc-800 p-4 flex justify-between items-center">
-      <h1 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">My Website</h1>
-      <nav className="space-x-4">
-        <button className="bg-blue-500 text-white py-2 px-4 rounded-lg">Home</button>
-        <button className="bg-green-500 text-white py-2 px-4 rounded-lg">About</button>
-        <button className="bg-red-500 text-white py-2 px-4 rounded-lg">Contact</button>
-      </nav>
-    </header>
-  )
+    <>
+      <div className="header-spacer" />
+      <header className="header-container">
+        <h1 className="header-title">My Website</h1>
+        <nav className="header-nav">
+          <button className="Btn">
+            Profile
+            <ProfileIcon className="svg" />
+          </button>
+          <button className="Btn">
+            Works
+            <PortfolioIcon className="svg" />
+          </button>
+          <button className="Btn">
+            Avatar
+            <UnityIcon className="svg" />
+          </button>
+          <button className="Btn">
+            Mail
+            <ContactIcon className="svg" />
+          </button>
+        </nav>
+      </header>
+    </>
+  );
 }
 
-export default Header
-
-
-
+export default Header;
