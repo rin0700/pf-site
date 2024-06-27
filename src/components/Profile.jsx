@@ -15,7 +15,7 @@ export function Profile() {
             Mobile:000-0000-0000
           </p>
         </div>
-        <p>Komamura Ryuichi</p>
+        <p className='custom-underline'></p>
         <h2 className="profile-title">駒村 隆一</h2>
         <h2>好きな言語;Swift,C#</h2>
         <p>趣味でのアプリ開発でSwiftを学習し、授業やゲーム制作でC#を学びました。
