@@ -59,3 +59,13 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+
+.custom-underline::after {
+  content: '';
+  display: block;
+  width: auto;
+  /* 下線の長さを設定 */
+  border-bottom: 1px solid black;
+  margin-top: -3px;
+  /* テキストとの間隔調整 (必要に応じて) */
+}
