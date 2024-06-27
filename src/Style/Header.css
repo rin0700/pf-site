@@ -58,6 +58,18 @@
   color: #fff;
 }
 
+.header-nav {
+  display: flex;
+  gap: 1rem;
+  /* Add space between buttons */
+}
+
+/* Spacer to avoid overlap with fixed header */
+.header-spacer {
+  height: 80px;
+  /* Adjust based on the height of your header */
+}
+
 /* Button styles */
 .Btn {
   position: relative;
