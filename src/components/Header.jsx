@@ -5,7 +5,14 @@ import { ReactComponent as ProfileIcon } from '../img/ProfileIcon.svg';
 import { ReactComponent as UnityIcon } from '../img/UnityIcon.svg';
 import { ReactComponent as ContactIcon } from '../img/ContactIcon.svg';
 import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
+
+function Header() {
   return (
+    <>
+      <div className="header-spacer" />
+      <header className="header-container">
+        <h1 className="header-title">My Website</h1>
+        <nav className="header-nav">
           <button className="Btn">
             Profile
             <ProfileIcon className="svg" />
@@ -22,12 +29,10 @@ import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
             Works
             <PortfolioIcon className="svg" />
           </button>
-      </nav>
-    </header>
-  )
+        </nav>
+      </header>
+    </>
+  );
 }
 
-export default Header
-
-
-
+export default Header;
