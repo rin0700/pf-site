@@ -13,6 +13,11 @@ import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
   const handleWorks = () => {
     navigate('/works');
   }
+
+  const handleAvatar = () => {
+    navigate('/avatar');
+  }
+
   return (
     <>
       <div className="header-spacer" />
