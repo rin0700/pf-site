@@ -18,6 +18,10 @@ import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
     navigate('/avatar');
   }
 
+  const handleMail = () => {
+    navigate('/mail');
+  }
+
   return (
     <>
       <div className="header-spacer" />
