@@ -1,11 +1,14 @@
 import React from 'react';
 import '../Style/Header.css';
 import 'normalize.css';
+import { useNavigate } from 'react-router-dom';
 import { ReactComponent as ProfileIcon } from '../img/ProfileIcon.svg';
 import { ReactComponent as UnityIcon } from '../img/UnityIcon.svg';
 import { ReactComponent as ContactIcon } from '../img/ContactIcon.svg';
 import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
 
+const Header = () => {
+  const navigate = useNavigate();
   const handleProfile = () => {
     navigate('/');
   }
@@ -28,19 +31,19 @@ import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
       <header className="header-container">
         <h1 className="header-title">My Website</h1>
         <nav className="header-nav">
-          <button className="Btn">
+          <button onClick={handleProfile} className="Btn">
             Profile
             <ProfileIcon className="svg" />
           </button>
-          <button className="Btn">
+          <button onClick={handleWorks} className="Btn">
             Works
             <PortfolioIcon className="svg" />
           </button>
-          <button className="Btn">
+          <button onClick={handleAvatar} className="Btn">
             Avatar
             <UnityIcon className="svg" />
           </button>
-          <button className="Btn">
+          <button onClick={handleMail} className="Btn">
             Mail
             <ContactIcon className="svg" />
           </button>
