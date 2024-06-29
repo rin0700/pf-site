@@ -6,7 +6,9 @@ import { ReactComponent as UnityIcon } from '../img/UnityIcon.svg';
 import { ReactComponent as ContactIcon } from '../img/ContactIcon.svg';
 import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
 
-function Header() {
+  const handleProfile = () => {
+    navigate('/');
+  }
   return (
     <>
       <div className="header-spacer" />
