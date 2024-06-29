@@ -1,3 +1,4 @@
+# プロフィールページのみ下記の資料で作成
 <img src="https://github.com/rin0700/pf-site/blob/main/src/img/ReadMeImgs/pf1.png">
 <img src="https://github.com/rin0700/pf-site/blob/main/src/img/ReadMeImgs/pf2.png">
 <img src="https://github.com/rin0700/pf-site/blob/main/src/img/ReadMeImgs/pf3.png">
