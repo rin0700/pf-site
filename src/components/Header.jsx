@@ -9,6 +9,10 @@ import { ReactComponent as PortfolioIcon } from '../img/PortfolioIcon.svg';
   const handleProfile = () => {
     navigate('/');
   }
+
+  const handleWorks = () => {
+    navigate('/works');
+  }
   return (
     <>
       <div className="header-spacer" />
