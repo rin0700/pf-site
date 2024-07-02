@@ -9,7 +9,7 @@ const hardSkill = [
   { subject: 'HTML', A: 4, fullMark: 5 },
   { subject: 'Java', A: 4, fullMark: 5 },
   { subject: 'Unity', A: 5, fullMark: 5 },
-  { subject: 'Swift', A: 2, fullMark: 5 },
+  { subject: 'Swift', A: 3, fullMark: 5 },
   { subject: 'JavaScript', A: 3, fullMark: 5 },
   { subject: 'C#', A: 3, fullMark: 5 },
 ];
