@@ -27,6 +27,16 @@ function MailForm() {
               required
             />
           </div>
+          <div className="form-group">
+            <label htmlFor="message" className="form-label">Message</label>
+            <textarea
+              id="message"
+              rows="4"
+              className="form-input"
+              placeholder="Your message"
+              required
+            />
+          </div>
   );
 }
 
