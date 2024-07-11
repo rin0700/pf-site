@@ -37,6 +37,10 @@ function MailForm() {
               required
             />
           </div>
+          <button type="submit" className="form-button">Send</button>
+        </form>
+      </div>
+    </div>
   );
 }
 
