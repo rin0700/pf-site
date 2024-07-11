@@ -18,6 +18,15 @@ function MailForm() {
             />
           </div>
           <div className="form-group">
+            <label htmlFor="subject" className="form-label">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              className="form-input"
+              placeholder="Subject"
+              required
+            />
+          </div>
   );
 }
 
