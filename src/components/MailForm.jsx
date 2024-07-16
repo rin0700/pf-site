@@ -1,5 +1,5 @@
-import React from 'react'
-import '../Style/MailForm.css'
+import React from 'react';
+import '../Style/MailForm.css';
 
 function MailForm() {
   return (
@@ -8,7 +8,9 @@ function MailForm() {
         <h2 className="form-title">Send a Mail</h2>
         <form>
           <div className="form-group">
-            <label htmlFor="email" className="form-label">Email Address</label>
+            <label htmlFor="email" className="form-label">
+              Email Address
+            </label>
             <input
               type="email"
               id="email"
@@ -18,7 +20,9 @@ function MailForm() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="subject" className="form-label">Subject</label>
+            <label htmlFor="subject" className="form-label">
+              Subject
+            </label>
             <input
               type="text"
               id="subject"
@@ -28,7 +32,9 @@ function MailForm() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="message" className="form-label">Message</label>
+            <label htmlFor="message" className="form-label">
+              Message
+            </label>
             <textarea
               id="message"
               rows="4"
@@ -37,11 +43,13 @@ function MailForm() {
               required
             />
           </div>
-          <button type="submit" className="form-button">Send</button>
+          <button type="submit" className="form-button">
+            Send
+          </button>
         </form>
       </div>
     </div>
   );
 }
 
-export default MailForm
+export default MailForm;
