@@ -11,19 +11,19 @@ const Header = () => {
   const navigate = useNavigate();
   const handleProfile = () => {
     navigate('/');
-  }
+  };
 
   const handleWorks = () => {
     navigate('/works');
-  }
+  };
 
   const handleAvatar = () => {
     navigate('/avatar');
-  }
+  };
 
   const handleMail = () => {
     navigate('/mail');
-  }
+  };
 
   return (
     <>
@@ -51,6 +51,6 @@ const Header = () => {
       </header>
     </>
   );
-}
+};
 
 export default Header;
