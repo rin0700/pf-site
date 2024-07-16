@@ -1,9 +1,9 @@
-import React from 'react'
-import Header from '../components/Header'
-import Profile from '../components/Profile'
-import LanguageCard from '../components/LanguageCard'
-import Qualifications from '../components/Qualifications'
-import SkillRadarChart from '../components/SkillRadarChart'
+import React from 'react';
+import Header from '../components/Header';
+import Profile from '../components/Profile';
+import LanguageCard from '../components/LanguageCard';
+import Qualifications from '../components/Qualifications';
+import SkillRadarChart from '../components/SkillRadarChart';
 
 function main() {
   return (
@@ -14,7 +14,7 @@ function main() {
       <LanguageCard />
       <Qualifications />
     </>
-  )
+  );
 }
 
-export default main
+export default main;
