@@ -1,6 +1,6 @@
-import React from 'react'
-import Header from '../components/Header'
-import MailForm from '../components/MailForm'
+import React from 'react';
+import Header from '../components/Header';
+import MailForm from '../components/MailForm';
 
 function Mail() {
   return (
@@ -8,7 +8,7 @@ function Mail() {
       <Header />
       <MailForm />
     </>
-  )
+  );
 }
 
-export default Mail
+export default Mail;
