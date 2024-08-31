@@ -4,6 +4,11 @@ import '../Style/Qualifications.css';
 function Qualifications() {
   const qualifications = [
     {
+      name: '丙種危険物取扱免状',
+      date: '令和2年 04月　',
+      org: '　主催:一般財団法人消防試験研究センター',
+    },
+    {
       name: '情報処理技術者認定試験 2級',
       date: '令和4年 07月　',
       org: '　主催:サーティファイ情報処理能力認定委員会',
@@ -45,7 +50,7 @@ function Qualifications() {
 
   return (
     <div className="container">
-      <Section title="取得済みの資格" items={qualifications} />
+      <Section title="取得済みの資格・免許" items={qualifications} />
       <Section title="学習中の資格" items={learning} />
     </div>
   );

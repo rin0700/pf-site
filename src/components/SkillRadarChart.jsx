@@ -18,6 +18,7 @@ const hardSkill = [
   { subject: 'Unity', A: 5, fullMark: 5 },
   { subject: 'C#', A: 3, fullMark: 5 },
   { subject: 'Swift', A: 3, fullMark: 5 },
+  { subject: 'Blender', A: 2, fullMark: 5 },
 ];
 
 const softSkill = [
