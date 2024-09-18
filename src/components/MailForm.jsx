@@ -1,8 +1,6 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import '../Style/MailForm.css';
 import { init, send } from 'emailjs-com';
-// import { init, send } from 'emailjs-com';
 
 function MailForm() {
   const [email, setEmail] = useState('');
@@ -15,11 +13,7 @@ function MailForm() {
     const serviceID = process.env.REACT_APP_SERVICE_ID;
     const templateID = process.env.REACT_APP_TEMPLATE_ID;
 
-    if (
-      userID !== undefined &&
-      serviceID !== undefined &&
-      templateID !== undefined
-    ) {
+    if (userID && serviceID && templateID) {
       init(userID);
 
       const template_param = {
@@ -28,35 +22,38 @@ function MailForm() {
         subject: subject,
         message: message,
       };
-      send(serviceID, templateID, template_param).then(() => {
-        window.alert('お問い合わせを送信しました。');
-        setEmail('');
-        setName('');
-        setSubject('');
-        setMessage('');
-      });
+
+      send(serviceID, templateID, template_param)
+        .then(() => {
+          window.alert('お問い合わせを送信しました。');
+          setEmail('');
+          setName('');
+          setSubject('');
+          setMessage('');
+        })
+        .catch((error) => {
+          console.error('メール送信エラー:', error);
+          window.alert('メール送信に失敗しました。再度お試しください。');
+        });
     }
   };
 
-  const handleClick = (e) => {
-    e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault(); // フォームのデフォルトの送信を防ぐ
     sendMail();
   };
-
-  const disableSend =
-    email === '' || name === '' || subject === '' || message === '';
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-background text-foreground p-4">
       <div className="form-container">
         <h2 className="form-title">問い合わせ</h2>
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="email" className="form-label">
               Email Address
             </label>
             <input
-              type="email"
+              type="email" // メールアドレスの形式を検証
               id="email"
               className="form-input"
               placeholder="メールアドレス"
@@ -110,8 +107,7 @@ function MailForm() {
           <button
             type="submit"
             className="form-button"
-            onClick={handleClick}
-            disabled={disableSend}
+            disabled={!email || !name || !subject || !message} // フィールドが未入力の場合、ボタンを無効化
           >
             Send
           </button>
