@@ -5,6 +5,10 @@ import { init, send } from 'emailjs-com';
 // import { init, send } from 'emailjs-com';
 
 function MailForm() {
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
   return (
     <div className="min-h-screen flex items-center justify-center bg-background text-foreground p-4">
       <div className="form-container">
