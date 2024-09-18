@@ -37,6 +37,7 @@ function MailForm() {
       });
     }
   };
+
   const handleClick = (e) => {
     e.preventDefault();
     sendMail();
@@ -48,7 +49,7 @@ function MailForm() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-background text-foreground p-4">
       <div className="form-container">
-        <h2 className="form-title">Send a Mail</h2>
+        <h2 className="form-title">問い合わせ</h2>
         <form>
           <div className="form-group">
             <label htmlFor="email" className="form-label">
@@ -58,7 +59,23 @@ function MailForm() {
               type="email"
               id="email"
               className="form-input"
-              placeholder="you@example.com"
+              placeholder="メールアドレス"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="name" className="form-label">
+              Name or Company
+            </label>
+            <input
+              type="text"
+              id="name"
+              className="form-input"
+              placeholder="氏名(会社名)"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               required
             />
           </div>
@@ -70,7 +87,9 @@ function MailForm() {
               type="text"
               id="subject"
               className="form-input"
-              placeholder="Subject"
+              placeholder="件名"
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
               required
             />
           </div>
@@ -80,13 +99,20 @@ function MailForm() {
             </label>
             <textarea
               id="message"
-              rows="4"
+              rows="10"
               className="form-input"
-              placeholder="Your message"
+              placeholder="内容"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
               required
             />
           </div>
-          <button type="submit" className="form-button">
+          <button
+            type="submit"
+            className="form-button"
+            onClick={handleClick}
+            disabled={disableSend}
+          >
             Send
           </button>
         </form>
