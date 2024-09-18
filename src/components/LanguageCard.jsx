@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import '../Style/LanguageCard.css';
 import imageAWS from '../img/amazon.svg';
