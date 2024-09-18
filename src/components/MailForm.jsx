@@ -9,6 +9,34 @@ function MailForm() {
   const [name, setName] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+
+  const sendMail = () => {
+    const userID = process.env.REACT_APP_USER_ID;
+    const serviceID = process.env.REACT_APP_SERVICE_ID;
+    const templateID = process.env.REACT_APP_TEMPLATE_ID;
+
+    if (
+      userID !== undefined &&
+      serviceID !== undefined &&
+      templateID !== undefined
+    ) {
+      init(userID);
+
+      const template_param = {
+        from_email: email,
+        to_name: name,
+        subject: subject,
+        message: message,
+      };
+      send(serviceID, templateID, template_param).then(() => {
+        window.alert('お問い合わせを送信しました。');
+        setEmail('');
+        setName('');
+        setSubject('');
+        setMessage('');
+      });
+    }
+  };
   return (
     <div className="min-h-screen flex items-center justify-center bg-background text-foreground p-4">
       <div className="form-container">
