@@ -39,7 +39,7 @@ function MailForm() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // フォームのデフォルトの送信を防ぐ
+    e.preventDefault();
     sendMail();
   };
 
@@ -53,10 +53,10 @@ function MailForm() {
               Email Address
             </label>
             <input
-              type="email" // メールアドレスの形式を検証
+              type="email"
               id="email"
               className="form-input"
-              placeholder="メールアドレス"
+              placeholder="メールアドレス*必須"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -70,7 +70,7 @@ function MailForm() {
               type="text"
               id="name"
               className="form-input"
-              placeholder="氏名(会社名)"
+              placeholder="氏名(会社名)*必須"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
@@ -84,7 +84,7 @@ function MailForm() {
               type="text"
               id="subject"
               className="form-input"
-              placeholder="件名"
+              placeholder="件名*必須"
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               required
@@ -98,7 +98,7 @@ function MailForm() {
               id="message"
               rows="10"
               className="form-input"
-              placeholder="内容"
+              placeholder="内容*必須"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
@@ -107,7 +107,7 @@ function MailForm() {
           <button
             type="submit"
             className="form-button"
-            disabled={!email || !name || !subject || !message} // フィールドが未入力の場合、ボタンを無効化
+            disabled={!email || !name || !subject || !message}
           >
             Send
           </button>
