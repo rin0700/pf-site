@@ -41,6 +41,10 @@ function MailForm() {
     e.preventDefault();
     sendMail();
   };
+
+  const disableSend =
+    email === '' || name === '' || subject === '' || message === '';
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-background text-foreground p-4">
       <div className="form-container">
