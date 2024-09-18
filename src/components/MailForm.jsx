@@ -1,12 +1,53 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Style/MailForm.css';
+import { init, send } from 'emailjs-com';
 
 function MailForm() {
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  const sendMail = () => {
+    const userID = process.env.REACT_APP_USER_ID;
+    const serviceID = process.env.REACT_APP_SERVICE_ID;
+    const templateID = process.env.REACT_APP_TEMPLATE_ID;
+
+    if (userID && serviceID && templateID) {
+      init(userID);
+
+      const template_param = {
+        from_email: email,
+        to_name: name,
+        subject: subject,
+        message: message,
+      };
+
+      send(serviceID, templateID, template_param)
+        .then(() => {
+          window.alert('お問い合わせを送信しました。');
+          setEmail('');
+          setName('');
+          setSubject('');
+          setMessage('');
+        })
+        .catch((error) => {
+          console.error('メール送信エラー:', error);
+          window.alert('メール送信に失敗しました。再度お試しください。');
+        });
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    sendMail();
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-background text-foreground p-4">
       <div className="form-container">
-        <h2 className="form-title">Send a Mail</h2>
-        <form>
+        <h2 className="form-title">問い合わせ</h2>
+        <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="email" className="form-label">
               Email Address
@@ -15,7 +56,23 @@ function MailForm() {
               type="email"
               id="email"
               className="form-input"
-              placeholder="you@example.com"
+              placeholder="メールアドレス*必須"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="name" className="form-label">
+              Name or Company
+            </label>
+            <input
+              type="text"
+              id="name"
+              className="form-input"
+              placeholder="氏名(会社名)*必須"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               required
             />
           </div>
@@ -27,7 +84,9 @@ function MailForm() {
               type="text"
               id="subject"
               className="form-input"
-              placeholder="Subject"
+              placeholder="件名*必須"
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
               required
             />
           </div>
@@ -37,13 +96,19 @@ function MailForm() {
             </label>
             <textarea
               id="message"
-              rows="4"
+              rows="10"
               className="form-input"
-              placeholder="Your message"
+              placeholder="内容*必須"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
               required
             />
           </div>
-          <button type="submit" className="form-button">
+          <button
+            type="submit"
+            className="form-button"
+            disabled={!email || !name || !subject || !message}
+          >
             Send
           </button>
         </form>
