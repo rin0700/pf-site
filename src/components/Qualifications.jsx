@@ -47,6 +47,11 @@ function Qualifications() {
       date: '令和6年 05月~　',
       org: '　主催:Amazon',
     },
+    {
+      name: 'TOEIC',
+      date: '令和6年 09月~　',
+      org: '　主催:ETS',
+    },
   ];
 
   return (
