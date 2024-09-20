@@ -62,3 +62,68 @@
 .wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
+
+.wrapper .X:hover,
+.wrapper .X:hover .tooltip,
+.wrapper .X:hover .tooltip::before {
+  background: #000000;
+  color: #fff;
+}
+
+.wrapper .Github:hover,
+.wrapper .Github:hover .tooltip,
+.wrapper .Github:hover .tooltip::before {
+  background: #000000;
+  color: #fff;
+}
+
+.wrapper .Discord:hover,
+.wrapper .Discord:hover .tooltip,
+.wrapper .Discord:hover .tooltip::before {
+  background: #000000;
+  color: #fff;
+}
+
+.wrapper .VRChat:hover,
+.wrapper .VRChat:hover .tooltip,
+.wrapper .VRChat:hover .tooltip::before {
+  background: #000000;
+  color: #fff;
+}
+
+.wrapper .VRChat:hover img {
+  filter: invert(1);
+}
+
+.wrapper .Note:hover,
+.wrapper .Note:hover .tooltip,
+.wrapper .Note:hover .tooltip::before {
+  background: #000000;
+  color: #fff;
+}
+
+.wrapper .Note:hover img {
+  filter: invert(1);
+}
+
+.wrapper .Qiita:hover,
+.wrapper .Qiita:hover .tooltip,
+.wrapper .Qiita:hover .tooltip::before {
+  background: #000000;
+  color: #fff;
+}
+
+.wrapper .Qiita:hover img {
+  filter: invert(1);
+}
+
+.wrapper .StudyPlus:hover,
+.wrapper .StudyPlus:hover .tooltip,
+.wrapper .StudyPlus:hover .tooltip::before {
+  background: #000000;
+  color: #fff;
+}
+
+.wrapper .StudyPlus:hover img {
+  filter: invert(1);
+}
