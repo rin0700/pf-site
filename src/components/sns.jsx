@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import note from '../img/note.png';
 import qiita from '../img/qiita.png';
