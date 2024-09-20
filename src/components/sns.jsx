@@ -4,6 +4,8 @@ import note from '../img/note.png';
 import qiita from '../img/qiita.png';
 import StudyPlus from '../img/StudyPlus.svg';
 import '../Style/Sns.css';
+
+function Sns() {
   const handleXClick = () => {
     window.location.href = 'https://x.com/Liy_SysE';
   };
@@ -25,6 +27,7 @@ import '../Style/Sns.css';
   const handleStudyPlusClick = () => {
     window.location.href = 'https://app.studyplus.jp/users/8b5909e6b2304dfb8590dbca5f04fd81';
   }
+  return (
     <div>
       <h2 className="textCenter">LINK</h2>
       <ul className="wrapper">
@@ -112,3 +115,8 @@ import '../Style/Sns.css';
 
       </ul>
     </div>
+  );
+}
+
+export default Sns;
+
