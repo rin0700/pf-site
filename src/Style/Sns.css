@@ -1,0 +1,9 @@
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 120px;
+  width: 92%;
+  margin-top: -15px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
