@@ -2,7 +2,7 @@
   display: inline-flex;
   list-style: none;
   height: 120px;
-  width: 92%;
+  width: 95%;
   margin-top: -15px;
   font-family: "Poppins", sans-serif;
   justify-content: center;
@@ -114,7 +114,7 @@
 }
 
 .wrapper .Qiita:hover img {
-  filter: invert(1);
+  filter: invert(0);
 }
 
 .wrapper .StudyPlus:hover,
