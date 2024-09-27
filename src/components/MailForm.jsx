@@ -104,6 +104,7 @@ function MailForm() {
               required
             />
           </div>
+          <p>※メール送信処理にMailJSを採用しています。</p>
           <button
             type="submit"
             className="form-button"
