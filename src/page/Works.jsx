@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from '../components/Header';
+import Sheet from '../components/Sheet';
 
 function Works() {
   return (
     <>
       <Header />
-      <h1 className="center">製作中のページです。</h1>
+      <Sheet />
     </>
   );
 }
