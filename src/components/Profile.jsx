@@ -24,11 +24,11 @@ export function Profile() {
           <p>Komamura&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ryuichi</p>
           <h2 className="profile-title">駒村 隆一</h2>
         </div>
-        <h2>好きな言語;Swift,C#</h2>
+        <h2>好きな言語;Swift</h2>
         <p className="tight-spacing">
-          趣味でのアプリ開発でSwiftを学習し、授業やゲーム制作でC#を学びました。
+          高校時代からiOSに興味を持ち専門学生時代にSwift/UIを学びました。
           <br />
-          どちらも豊富なライブラリとフレームワークがあり開発しやすいと感じています。
+          豊富なライブラリとフレームワークがあり開発しやすいと感じています。
         </p>
         <h2>趣味:メタバース</h2>
         <p className="tight-spacing">
