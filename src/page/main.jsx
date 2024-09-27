@@ -5,7 +5,6 @@ import LanguageCard from '../components/LanguageCard';
 import Qualifications from '../components/Qualifications';
 import SkillRadarChart from '../components/SkillRadarChart';
 import Sns from '../components/sns';
-import Sheet from '../components/Sheet';
 
 function main() {
   return (
@@ -15,7 +14,6 @@ function main() {
       <SkillRadarChart />
       <LanguageCard />
       <Qualifications />
-      <Sheet />
       <Sns />
     </>
   );
