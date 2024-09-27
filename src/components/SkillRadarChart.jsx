@@ -16,7 +16,7 @@ const hardSkill = [
   { subject: 'Java', A: 4, fullMark: 5 },
   { subject: 'JavaScript', A: 3, fullMark: 5 },
   { subject: 'Unity', A: 5, fullMark: 5 },
-  { subject: 'C#', A: 3, fullMark: 5 },
+  { subject: 'C#', A: 2, fullMark: 5 },
   { subject: 'Swift', A: 3, fullMark: 5 },
   { subject: 'Blender', A: 2, fullMark: 5 },
 ];
@@ -26,7 +26,7 @@ const softSkill = [
   { subject: 'WBS', A: 4, fullMark: 5 },
   { subject: 'Proactive', A: 4, fullMark: 5 },
   { subject: 'Communication', A: 3, fullMark: 5 },
-  { subject: 'Support', A: 4, fullMark: 5 },
+  { subject: 'Support', A: 2, fullMark: 5 },
 ];
 
 const SkillRadarChart = () => {
