@@ -21,10 +21,10 @@ export function Profile() {
         </div>
         <p className="custom-underline"></p>
         <div className="center">
-          <p>Komamura&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ryuichi</p>
+          <p>Komamura&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ryuichi</p>
           <h2 className="profile-title">駒村 隆一</h2>
         </div>
-        <h2>好きな言語;Swift</h2>
+        <h2>好きな言語:Swift</h2>
         <p className="tight-spacing">
           高校時代からiOSに興味を持ち専門学生時代にSwift/UIを学びました。
           <br />
