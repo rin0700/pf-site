@@ -14,6 +14,14 @@
   justify-content: center;
 }
 
+.form-input::placeholder {
+  color: #a80000b2;
+  /* お好みの色に変更 */
+  opacity: 1;
+  /* opacityを設定することで色の透明度を調整できます */
+}
+
+
 .p-4 {
   padding: 1rem;
 }
