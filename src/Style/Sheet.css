@@ -1,6 +1,6 @@
 .iframeWrappers {
   margin: 10px auto;
-  width: 90%;
+  width: 94%;
   padding-bottom: 56.25%;
   position: relative;
 }
@@ -8,26 +8,23 @@
 .iframeWrappers iframe {
   position: absolute;
   width: 100%;
-  height: 98%;
+  height: 100%;
 }
 
 .iframeContainers {
+  margin: 10px auto;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
   gap: 20px;
-  width: 90%;
-  margin: 0 auto;
 }
 
 .smallIframe {
-  width: 48.5%;
-  height: 0;
-  position: relative;
+  width: 45.9%;
+  aspect-ratio: 16 / 11;
 }
 
-.smallIframe iframe {
+.iframeContainers iframe {
   width: 100%;
-  height: 57%;
+  height: 94%;
+  /* 親要素に基づいて高さを調整 */
 }

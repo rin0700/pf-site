@@ -12,8 +12,8 @@ import {
 
 const hardSkill = [
   { subject: 'SwiftUI', A: 5, fullMark: 5 },
-  { subject: 'HTML', A: 4, fullMark: 5 },
-  { subject: 'Java', A: 4, fullMark: 5 },
+  { subject: 'HTML/CSS', A: 4, fullMark: 5 },
+  { subject: 'Java', A: 3, fullMark: 5 },
   { subject: 'JavaScript', A: 3, fullMark: 5 },
   { subject: 'Unity', A: 5, fullMark: 5 },
   { subject: 'C#', A: 2, fullMark: 5 },
@@ -23,7 +23,7 @@ const hardSkill = [
 
 const softSkill = [
   { subject: 'Problem solving', A: 5, fullMark: 5 },
-  { subject: 'WBS', A: 4, fullMark: 5 },
+  { subject: 'WBS', A: 3, fullMark: 5 },
   { subject: 'Proactive', A: 4, fullMark: 5 },
   { subject: 'Communication', A: 3, fullMark: 5 },
   { subject: 'Support', A: 2, fullMark: 5 },
