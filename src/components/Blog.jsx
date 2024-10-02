@@ -7,7 +7,7 @@ import '../Style/Blog.css';
 function Blog() {
   return (
     <div className='blog'>
-      <h2 className='textCenter'>Blog</h2>
+      <h2 className='textCenter'>-Blog-</h2>
       <div className='note'>
         <div className='noteItem'>
           <a href="https://note.com/rin0700/n/n9798f38b95b0" target="_blank" rel="noopener noreferrer">
