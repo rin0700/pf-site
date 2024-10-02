@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Sheet from '../components/Sheet';
 import Blog from '../components/Blog';
+import Vrc from '../components/Vrc';
 
 function Works() {
   return (
@@ -9,6 +10,7 @@ function Works() {
       <Header />
       <Sheet />
       <Blog />
+      <Vrc />
     </>
   );
 }
