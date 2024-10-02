@@ -1,0 +1,46 @@
+.vrc {
+  width: 93.2%;
+  margin: 0 auto;
+}
+
+.vrcGallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.vrcItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+.vrcImg {
+  width: 100%;
+  height: auto;
+  /* 高さを自動にして、アスペクト比を保持 */
+  max-width: 500px;
+  /* 最大幅を500pxに設定 */
+  object-fit: cover;
+  /* アスペクト比を維持しつつ、画像をトリミング */
+}
+
+.vrcItem a {
+  color: black;
+  text-decoration: none;
+}
+
+.vrcItem a:hover {
+  text-decoration: underline;
+}
+
+.vrcText {
+  margin-top: 5px;
+}
+
+.textCenter {
+  text-align: center;
+}
