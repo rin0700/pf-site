@@ -5,7 +5,7 @@ import '../Style/Sheet.css';
 function Sheet() {
   return (
     <>
-      <h2 className='textCenter'>Portfolio</h2>
+      <h2 className='textCenter'>-Portfolio-</h2>
       <div className="iframeWrappers">
         <iframe
           src="https://docs.google.com/presentation/d/1gIyTjE6vPznTC44LGMvR0xmGr0OyUNRiC95ubga8OCA/embed?start=false&loop=false&delayms=3000"
@@ -15,7 +15,7 @@ function Sheet() {
           webkitallowfullscreen="true">
         </iframe>
       </div>
-      <h2 className="textCenter">Artificial Intelligence</h2>
+      <h2 className="textCenter">-Artificial Intelligence-</h2>
       <div className="iframeContainers">
         <div className="smallIframe">
           <iframe
