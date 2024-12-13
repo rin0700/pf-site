@@ -4,6 +4,7 @@ import Main from '../page/main';
 import Mail from '../page/Mail';
 import Works from '../page/Works';
 import Avatar from '../page/Avatar';
+import Metaverse from '../page/Metaverse';
 
 const Root = () => {
   return (
@@ -12,6 +13,7 @@ const Root = () => {
       <Route path="/mail" element={<Mail />} />
       <Route path="/works" element={<Works />} />
       <Route path="/avatar" element={<Avatar />} />
+      <Route path="/metaverse" element={<Metaverse />} />
     </Routes>
   );
 };
