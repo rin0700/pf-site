@@ -1,8 +1,11 @@
 /* eslint-disable prettier/prettier */
 import React, { useState, useRef } from 'react';
+
+function DeepLearning() {
   const [isSharing, setIsSharing] = useState(false);
   const videoRef = useRef(null);
   let stream;
+
   const startScreenShare = async () => {
     try {
       stream = await navigator.mediaDevices.getDisplayMedia({
@@ -37,3 +40,6 @@ import React, { useState, useRef } from 'react';
       )}
     </div>
   );
+}
+
+export default DeepLearning;
