@@ -1,5 +1,8 @@
 /* eslint-disable prettier/prettier */
 import React, { useState, useRef } from 'react';
+  const [isSharing, setIsSharing] = useState(false);
+  const videoRef = useRef(null);
+  let stream;
   const startScreenShare = async () => {
     try {
       stream = await navigator.mediaDevices.getDisplayMedia({
