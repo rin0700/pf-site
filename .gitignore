@@ -22,3 +22,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+############################################
+# Unity WebGL（public/metaverse）を完全除外
+############################################
+
+# WebGL Build フォルダ
+public/metaverse/Build/
+public/metaverse/StreamingAssets/
+
+# Unity WebGL が生成する巨大ファイル類
+public/metaverse/**/*.data
+public/metaverse/**/*.wasm
+public/metaverse/**/*.jsgz
+public/metaverse/**/*.datagz
+public/metaverse/**/*.wasmgz
+public/metaverse/**/*.memgz
+public/metaverse/**/*.json
