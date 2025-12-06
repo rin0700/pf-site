@@ -11,12 +11,13 @@ export function Profile() {
           <p>
             新潟コンピュータ専門学校
             <br />
-            情報システム科 応用システムコース
+            情報システム科 応用システムコース卒
           </p>
           <p>
-            Mail&nbsp;&nbsp;&nbsp;&nbsp;:kss-22180031@nsgcl.jp
+            Mail:&nbsp;&nbsp;&nbsp;&nbsp;komamuraryuichi@gmail.com
             <br />
-            Mobile:000-0000-0000
+            X: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://x.com/rin_0700">@rin_0700</a>
           </p>
         </div>
         <p className="custom-underline"></p>
