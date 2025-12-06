@@ -1,13 +1,13 @@
 import React from 'react';
+import '../Style/Metaverse.css';
 
 //http://localhost:3000/metaverse/
 
 function Metaverse() {
   return (
-    <div>
+    <div className="metaverse-container">
       <iframe
-        width="1200"
-        height="780"
+        className="metaverse-iframe"
         src="/metaverse/index.html"
         frameBorder="0"
         allowFullScreen
