@@ -15,7 +15,7 @@ function Sheet() {
         ></iframe>
       </div>
 
-      <h2 className='textCenter'>-卒業制作-&nbsp;&nbsp;&nbsp;制作物は<a href="http://localhost:3000/metaverse/">こちら</a></h2>
+      <h2 className='textCenter'>-卒業制作-&nbsp;&nbsp;&nbsp;制作物は<a href="http://rin0700.com/metaverse/">こちら</a></h2>
       <div className="iframeWrappers">
         <iframe
           loading="lazy"
